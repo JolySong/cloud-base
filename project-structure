@@ -1,0 +1,48 @@
+src/
+├── views/
+│   ├── application/           # 应用管理模块
+│   │   ├── index.vue         # 应用列表页面
+│   │   ├── components/       # 组件文件夹
+│   │   └── hooks/           # 钩子函数
+│   │
+│   ├── resource/             # 资源管理模块
+│   │   ├── index.vue
+│   │   ├── components/
+│   │   └── hooks/
+│   │
+│   ├── role/                 # 角色管理模块
+│   │   ├── index.vue
+│   │   ├── components/
+│   │   └── hooks/
+│   │
+│   └── user/                 # 用户管理模块
+│       ├── index.vue
+│       ├── components/
+│       └── hooks/
+│
+├── utils/                    # 工具函数
+│   ├── request.js           # axios 请求封装
+│   ├── auth.js              # 权限相关工具
+│   ├── validate.js          # 验证工具
+│   └── format.js            # 格式化工具
+│
+├── router/                   # 路由配置
+│   └── modules/             # 按模块划分的路由
+│       ├── application.js
+│       ├── resource.js
+│       ├── role.js
+│       └── user.js
+│
+├── api/                      # API 接口
+│   ├── application.js
+│   ├── resource.js
+│   ├── role.js
+│   └── user.js
+│
+└── store/                    # 状态管理
+    ├── modules/
+    │   ├── application.js
+    │   ├── resource.js
+    │   ├── role.js
+    │   └── user.js
+    └── index.js 
